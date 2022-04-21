@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/craitzus/lambda-gh-actions/issues"
   },
-  "homepage": "https://github.com/craitzus/lambda-gh-actions#readme"
+  "homepage": "https://github.com/craitzus/lambda-gh-actions#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1119.0"
+  }
 }
