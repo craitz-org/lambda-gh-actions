@@ -27,5 +27,4 @@ jobs:
       - name: deploy
         run: |
           zip -j deploy.zip ./*
-          aws lambda update-function-code --function-name=ghactions-demo --zip-file=fileb://deploy.zip
-          aws lambda publish-version --function-name ghactions-demo
+          aws lambda update-function-code --function-name=ghactions-demo --no-publish true --zip-file=fileb://deploy.zip
